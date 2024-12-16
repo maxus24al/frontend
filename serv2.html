@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/maskphone.js"></script>
+    <title>О проекте</title>
+    
+</head>
+
+<body>
+    <header>
+        <div class="head_header">
+            <div>
+                <img class="m_logo" src="logos/logo.png" alt="">
+                <a>Практика1</a>
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                <p>Группа ЭФБО-09-23</p>
+                <p>Усков Максим Александрович</p>
+            </div>
+            
+        </div>
+        <nav>
+            <li>
+                <a href="main2.html">Главная</a>
+            </li>
+            <li>
+                <a href="first_sem2.html">Первый семестр</a>
+            </li>
+            <li>
+                <a href="#">Второй семестр</a>
+            </li>
+            <li>
+                <a href="serv2.html">Услуги</a>
+            </li>
+            <li>
+                <a href="#">Авторизация</a>
+            </li>
+        </nav>
+        
+    </header> 
+
+    <main>
+        <div class="left-body">
+            <div>
+                <h5>Навигация по сайту</h5>
+                <li>
+                    <a>Фронтэнд</a>
+                </li>
+                <li>
+                    <a>Бэкенд</a>
+                </li>
+            </div>
+        </div>
+        <form id="modal"  class = "modal">
+            <span type="submit"  class = "close">X</span>
+            <span type="submit" style="float: left;"></span>
+
+            <label for="name" class="modal-content n_modal" id="nserv"></label>
+
+            <!-- Поле для ввода имени -->
+            <label for="name" class="modal-content">Имя:</label>
+            <input type="text" id="name" name="name"  class ="modal-content" required>
+
+            <!-- Поле для ввода электронной почты -->
+            <label for="email" class="modal-content">Электронная почта:</label>
+            <input type="email" id="email" name="email" class="modal-content" required>
+
+            <label for="phon" class ="modal-content">Номер телефона:</label>
+            <input type="text" class ="phon modal-content" id="phon" placeholder="+7 (XXX) XXX-XX-XX" required>
+            
+            <label for="select" class ="modal-content">Страна:</label>
+            <select name="select" class ="modal-content" required>
+                <option value="value1">Россия</option>
+                <option value="value2">Китай</option>
+                <option value="value3">Япония</option>
+                <option value="value4">Германия</option>
+                <option value="value5">США</option>
+            </select>
+
+            <label for="date" class="modal-content">Дата</label>
+            <input type="date" id="date" name="date" class="modal-content" required>
+            
+            <!-- Многострочное текстовое поле для комментариев -->
+            <label for="comments" class="modal-content">Комментарии:</label>
+            <textarea id="comments" name="comments" class="modal-content"></textarea>
+
+            
+
+            <!-- Кнопка отправки формы -->
+            <button id = "submit" type="submit" class= "modal-content">Отправить</button>
+            
+        </form>
+        
+        <div id="platform" class="platform">Форма отправлена!</div>
+        
+        <div class="right-body">
+            <div class="card-section">
+                <div class="cards">
+                    <h3 id="serv1">
+                        Создание визитки
+                    </h3>
+                    <button id="openModal1" type="button" >Заказать</button>
+                </div>
+                
+                <div class="cards">
+                    <h3 id="serv2">
+                        Корпоративный сайт
+                    </h3>
+                    <button id="openModal2" type="button" >Заказать</button>
+                    
+                </div>
+
+                <div class="cards">
+                    <h3 id="serv3">
+                        Сайт заглушка
+                    </h3>
+                    <button id="openModal3" type="button" >Заказать</button>
+                    
+                </div>
+                
+            </div>
+            <div style="margin: 8% 8% 0 8%;">
+                <p >
+                    Таким образом сложившаяся структура организации способствует подготовки и реализации дальнейших направлений развития. Задача организации, в особенности же рамки и место обучения кадров позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации направлений прогрессивного развития.
+
+    Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации модели развития. Равным образом дальнейшее развитие различных форм деятельности играет важную роль в формировании дальнейших направлений развития. Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом рамки и место обучения кадров играет важную роль в формировании соответствующий условий активизации. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий в значительной степени обуславливает создание форм развития. С другой стороны сложившаяся структура организации требуют определения и уточнения направлений прогрессивного развития.
+                </p>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <h4>Усков Максим Александрович</h4>
+        <div>
+            <img class="s_logo" src="logos/vk_logo.png" alt="">
+            <img class="s_logo" src="logos/wa_logo.png" alt="">
+        </div>
+    </footer>
+    <script src="js/card.js"></script>
+    <script src="js/form.js"></script>  
+    <script src="js/form_anim.js"></script>  
+</body>
+
+</html>
